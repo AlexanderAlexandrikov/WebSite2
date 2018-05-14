@@ -1,0 +1,204 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background: #9b8f8f; /* Цвет фона */
+    background-image: url("https://img.getbg.net/upload/full/9/425827_seryj_fon__1920x1080_(www.GetBg.net).jpg");
+    color: #f0f0f0; /* Цвет текста */
+    font-style: italic; /* Курсивное начертание */
+    font-family: 'Times New Roman', Times, serif; /* Шрифт с засечками */
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+}
+
+.mainhead {
+    background: #ff0000;
+    height: 150px;
+    margin: 5px 0px;
+}
+
+.headname {
+    background: #ff0000;
+    height: 150px;
+    margin: 5px 0px;
+}
+
+.pagecolor {
+    background: #c0c0c0;
+}
+
+.letter {
+    color: red; /* Цвет символа */
+    font-size: 200%; /* Размер шрифта */
+} 
+
+/*
+    ------------------RESUME--------------------
+*/
+
+.resume {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+
+
+
+
+.row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.position {
+    width: 450px;
+    float: left;
+    margin-right: 100px;
+    
+}
+
+.position:last-child {
+    margin-right: 0px;
+}
+
+.resume-container {
+    width: 1040px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.resume-item {
+    padding: 10px;
+}
+
+.resume-title {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.resume-text {
+    background: #0c65c7;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.textblock {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.textblock2 {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+ins {
+    font-weight: bold;
+}
+
+.blockhead {
+    text-align: center;
+}
+
+.headtext {
+    text-decoration: underline;
+}
+
+.header_block {
+    background: #191313;
+    background-image: url("https://html-templates.info/images/pages/140520040122.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 50vh;
+    width: 100%;
+    color: antiquewhite;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header_title {
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -50px;
+}
+
+.header_detail {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.footer {
+    background: #191313;
+    background-image: url("https://html-templates.info/images/pages/140520040122.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 20vh;
+    width: 100%;
+    color: antiquewhite;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.footer-contact {
+    font-size: 30px;
+}
+
+.about {
+    height: 100vh;
+    font-size: 20px;
+}
+
+.contact {
+    height: 50vh;
+    font-size: 20px;
+    text-align:center;
+    padding:5px;
+}
+
+.contact-form {
+    text-align: center;
+}
